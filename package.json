@@ -1,0 +1,29 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndth4ng/nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "thang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndth4ng/nodejs/issues"
+  },
+  "homepage": "https://github.com/ndth4ng/nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
